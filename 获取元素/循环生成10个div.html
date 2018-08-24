@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #box{
+        width: 500px;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+
+    #box div{
+        float: left;
+        width: 98px;
+        height: 98px;
+        border: 1px solid #fff;
+    }
+</style>
+
+<body>
+
+<!--//动态生成10个div，存放在box中-->
+<!--//前5个div颜色red-->
+<!--//后5个div颜色yellow-->
+<div id="box">
+
+</div>
+
+</body>
+
+
+<script>
+    //尽可能少的操作dom，
+    //将字符串拼接起来以后在将其插入在dom节点中
+    var box = document.getElementById("box");
+    var inner = "";
+    for (var i = 0;i<10;i++){
+        if(i<5){
+            inner += "<div style='background: red'>"+i+"</div>";
+        }else {
+            inner += "<div style='background: yellow'>"+i+"</div>";
+        }
+    }
+    box.innerHTML = inner;
+    // 操作完innerHTML再去获取元素
+    var divs = box.querySelectorAll('div');
+    for (var i = 0;i<divs.length;i++){
+        //循环是在页面加载完之后执行的
+        divs[i].onclick = function () {
+            //点击事件中的代码是在用户点击之后才会执行
+//            这个时候外边的循环已经执行结束了。只能拿到循环之后的结果
+            alert(i);
+        }
+    }
+
+    //如何可以取到正在执行的
+    for(var i = 0;i<divs.length;i++){
+       divs[i].onclick = function () {
+           console.log(this.innerHTML);
+       }
+    }
+    /*
+    * 在事件函数中，需要拿到当前的事件发生在哪个元素中
+    * 可以通过this获得
+    * this在事件调用中，代表的是调用这个事件的元素
+    * */
+
+</script>
+
+</html>

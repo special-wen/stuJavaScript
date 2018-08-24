@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性操作</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div id = "box" class="box">box1</div>
+<script>
+    var box = document.querySelector('.box');
+    console.log(box.id);
+    box.style.background = 'blue'; //样式的设置
+    console.log(box.style.width);
+    console.log(box.className);
+    console.log(box.innerHTML);
+    //    box.id = "box2";
+/*
+       属性的读操作
+        el.属性
+       属性的写操作
+        el.属性 = val
+       属性操作的注意事项
+        1.关于style属性:操作style属性，操作的是元素的行间样式
+        2.关于class：在js中，元素的class不叫class，交className
+
+       el.innerHTML
+       元素从开始标签到结束标签之间的内容
+
+
+*/
+
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .warp{
+            width: 300px;
+            margin: 50px auto;
+        }
+        .title{
+            margin: 0;
+            text-align: center;
+            line-height: 40px;
+        }
+        #text{
+           border: 1px solid #000;
+            overflow: auto;
+
+        }
+        #btn{
+            display: block;
+            margin: 10px auto;
+
+        }
+        #list{
+            border-top: 1px solid #000;
+            margin: 0;
+            padding: 0 20px;
+            list-style: none;
+        }
+        #list li{
+            font: 14px/28px "宋体";
+            border-bottom: 1px solid #666;
+        }
+        #list li:nth-of-type(2n){
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+<section class="warp">
+    <h2 class="title">留言板</h2>
+    <textarea id="text" cols="30" rows="10"></textarea>
+    <button id = 'btn' type="button">提交留言</button>
+    <ul id="list"></ul>
+</section>
+<script>
+    var btn = document.getElementById("btn");
+    var text = document.getElementById("text");
+    var list = document.getElementById("list");
+    //获取表单的值时使用 value
+    btn.onclick = function () {
+        var val = text.value;
+        //        list.innerHTML = '<li>'+val+'</li>';
+        //        直接设置innerHTML会将之前的东西覆盖掉
+
+        //        var html = list.innerHTML;
+        //        list.innerHTML = html + '<li>'+val+'</li>';
+
+//        list.innerHTML = list.innerHTML +'<li>'+val+'</li>';
+
+        list.innerHTML += '<li>'+val+'</li>';
+
+
+
+
+        text.value = '';
+    }
+</script>
+</body>
+</html>

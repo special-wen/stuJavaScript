@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style>
+        ul,li{
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        #lis{
+            width: 120px;
+            height: 30px;
+            border: 1px #aaaaaa solid;
+        }
+
+        #lis a{
+            line-height: 30px;
+        }
+
+        #lis1{
+            border: 1px #ccc solid;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<ul id = "nav">
+    <li id = "lis">
+        <a href="#">我是父级导航</a>
+        <ul id = "lis1">
+            <li>我是子级导航1</li>
+            <li>我是子级导航2</li>
+            <li>我是子级导航3</li>
+        </ul>
+    </li>
+</ul>
+</body>
+<script>
+    var hover = document.getElementById("nav");
+    var list = document.getElementById("lis1");
+    function show() {
+        list.style.display = "block";
+    }
+    function none() {
+        list.style.display = "none";
+    }
+    hover.onmouseover = show;
+    hover.onmouseout = none;
+</script>
+</html>

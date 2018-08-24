@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .red{
+        width: 300px;
+        background: red;
+        border: 10px solid #ccc;
+        padding: 20px;
+        color: yellow;
+    }
+    .yellow{
+        width: 300px;
+        background: yellow;
+        border: 10px solid #ccc;
+        padding: 20px;
+        color: red;
+    }
+</style>
+<body>
+<button id ="btn1">-</button>
+<button id = 'btn2'>+</button>
+<button id = "btn3">红色</button>
+<button id = "btn4">黄色</button>
+<p id = "p1">垃圾回收:在很多高级语言中，可以自动的分配内存和释放内存。在javaScript中，变量创建的时候为其分配内存，当不再被使用的时候会“自动地”释放这些内存。这个过程就被称为垃圾回收。但是这个可以“自动地”释放资源的本质是是一个混乱的来源。</p>
+<script>
+    var oBtn1 = document.getElementById("btn1");
+    var oBtn2 = document.getElementById("btn2");
+    var oBtn3 = document.getElementById('btn3');
+    var oBtn4 = document.getElementById('btn4');
+
+    var oP = document.getElementById("p1");
+
+    var num = 15;
+
+    oBtn1.onclick = function () {
+        num--;
+        oP.style.fontSize = num+'px';
+
+    };
+
+    oBtn2.onclick = function () {
+        num++;
+        oP.style.fontSize = num+'px';
+    };
+
+    oBtn3.onclick = function () {
+        oP.className = 'red';
+    };
+    oBtn4.onclick = function () {
+        oP.className = 'yellow';
+    }
+</script>
+</body>
+</html>

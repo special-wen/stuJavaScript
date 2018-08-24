@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器，改变div属性</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #change{
+            width: 300px;
+            height: 300px;
+            border: 1px #cccccc solid;
+            background: green;
+            float: left;
+        }
+        #cDiv{
+            width: 340px;
+            height: 170px;
+            border: 2px grey solid;
+            float: left;
+            margin-left: 20px;
+            display: none;
+        }
+
+        #cDiv #color{
+            margin-top: 10px;
+        }
+
+        #cDiv #color #red{
+            background: red;
+            color :white;
+
+        }
+
+        #cDiv #color #yellow{
+            background: yellow;
+        }
+
+        #cDiv #color #blue{
+            background: blue;
+            color: white;
+
+        }
+
+        #cDiv #width{
+            margin-top: 10px;
+        }
+
+        #cDiv #height{
+            margin-top: 10px;
+        }
+
+        #cDiv #but{
+            margin-top: 10px;
+            float: right;
+        }
+
+        #cDiv .flag{
+            width: 50px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<div id = "letter">
+    <span>请为下面的div设置样式：</span><button id = "setButton">点击设置</button>
+</div>
+<div id = "change"></div>
+<div id = "cDiv">
+    <div id = "color">
+        <span>请选择颜色：</span>
+        <button id = "red" class="flag">红色</button>
+        <button id = "yellow" class="flag">黄色</button>
+        <button id = "blue" class="flag">蓝色</button>
+    </div>
+    <div id = "width">
+        <span>请选择宽度：</span>
+        <button id = "lWidth" class="flag">200px</button>
+        <button id = "mWidth" class="flag">300px</button>
+        <button id = "bWidth" class="flag">500px</button>
+    </div>
+    <div id = "height">
+        <span>请选择高度：</span>
+        <button id = "lHeight" class="flag">200px</button>
+        <button id = "mHeight" class="flag">300px</button>
+        <button id = "bHeight" class="flag">500px</button>
+    </div>
+    <div id = "but">
+        <button class="flag" id = "rest">恢复</button>
+        <button class="flag" id = "certain">确定</button>
+    </div>
+</div>
+<div id = "wrap">
+
+</div>
+</body>
+<script>
+    var setBut = document.getElementById("setButton");
+    var setting = document.getElementById("cDiv");
+
+    var redBut = document.getElementById("red");
+    var yellBut = document.getElementById("yellow");
+    var blueBut = document.getElementById("blue");
+
+    var sWidth = document.getElementById("lWidth");
+    var mWidth = document.getElementById("mWidth");
+    var bWidth = document.getElementById("bWidth");
+
+    var sHeight = document.getElementById("lHeight");
+    var mHeight = document.getElementById("mHeight");
+    var bHeight = document.getElementById("bHeight");
+
+    var rest = document.getElementById("rest");
+    var certain = document.getElementById("certain");
+
+    var view = document.getElementById("change");
+    function  showSetting() {
+        setting.style.display = "block";
+    }
+    setBut.onclick = showSetting;
+    //设置颜色
+    redBut.onclick = function () {
+        view.style.background = "red";
+    };
+    yellBut.onclick = function () {
+        view.style.background = "yellow";
+    };
+    blueBut.onclick = function () {
+        view.style.background = "blue";
+    }
+    //设置宽度
+    sWidth.onclick = function () {
+        view.style.width = "200px";
+    };
+    mWidth.onclick = function () {
+        view.style.width = "300px";
+    };
+    bWidth.onclick = function () {
+        view.style.width = "500px";
+    };
+    //设置高度
+    sHeight.onclick = function () {
+        view.style.height = "200px";
+    };
+    mHeight.onclick = function () {
+        view.style.height = "300px";
+    };
+    bHeight.onclick = function () {
+        view.style.height = "500px";
+    };
+    //恢复
+    rest.onclick = function () {
+        view.style.background = "green";
+        view.style.width = "300px";
+        view.style.height = "300px";
+    }
+    //确定
+    certain.onclick = function () {
+        setting.style.display = "none";
+    }
+</script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .nav{
+        width: 300px;
+        height: 30px;
+        border: 1px solid #000;
+    }
+    .nav a{
+        float: left;
+        width: 98px;
+        font: 14px/28px "宋体";
+        text-align: center;
+        border: 1px solid #000;
+        color: black;
+        text-decoration: none;
+    }
+    .nav .active{
+        color: #fff;
+        background: #000;
+
+    }
+</style>
+<body>
+<nav class="nav">
+    <a href="#">选项一</a>
+    <a href="#">选项二</a>
+    <a href="#">选项三</a>
+</nav>
+<script>
+    var nav = document.querySelector(".nav");
+    var navs = nav.querySelectorAll("a");
+    console.log(navs);
+    for (var i = 0;i<navs.length;i++){
+        navs[i].onclick = function () {
+            //点击的时候先清除所有的
+            for (var i = 0;i<navs.length;i++){
+                navs[i].className = ''
+            }
+            this.className = "active";
+        }
+
+    }
+</script>
+</body>
+
+</html>

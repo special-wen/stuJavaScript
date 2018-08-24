@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="warp">
+        <ul>
+            <li><button>1</button></li>
+            <li><button>2</button></li>
+            <li><button>3</button></li>
+            <li><button>4</button></li>
+        </ul>
+    </div>
+</body>
+
+<script>
+/*
+* document.getElementById()
+* document.getElementsByTagName()
+* document.getElementsByClassName()
+* document.querySelector()
+* document.querySelectorAll()
+* */
+//
+var warp = document.getElementById("#wrap");
+//var list = warp.querySelectorAll(".list");
+//var lis = liset.gtElementsByName("li");
+var btns = warp.querySelectorAll("button");
+
+btns[0].onclick = function () {
+    console.log(1);
+}
+
+</script>
+
+</html>
