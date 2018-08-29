@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组去重</title>
+    <style>
+        li{
+
+        }
+    </style>
+</head>
+
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+<script>
+    Array.prototype.method1=function(){
+        var arr=[];
+        for(var i=0;i<this.length;i++){
+            if(arr.indexOf(this[i]) == -1){
+                arr.push(this[i]);
+            }
+        }
+        return arr;
+    }
+    var arr = [1,2,3,3,3,3,4,2,1,3,3];
+    var bb = arr.method1()
+    console.log(bb)
+</script>
+</body>
+</html>
