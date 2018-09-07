@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bc7f50-b76d-41ce-bbd9-1d762a2445bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ES6/async/async_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/generator/for...of.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/generator/generator_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/generator/generator_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/generator/next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/generator/this.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/endsWidth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/includes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/indexOf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/padStartEnd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/repeat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/startsWith.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/字符串的扩展/字符串_forOf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/箭头函数/箭头函数_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/选择排序.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组去重/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝和浅拷贝.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/继承/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/继承/prototype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/Map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/Set/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/Set/set遍历操作.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/Set/交并补集.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/Set/数组去重.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/SetMap/WeakSet/weakset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES6/数组的扩展/from/Array.from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flatten.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/every.html" beforeDir="false" afterPath="$PROJECT_DIR$/Array/every.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/filler.html" beforeDir="false" afterPath="$PROJECT_DIR$/Array/filler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/forEach.html" beforeDir="false" afterPath="$PROJECT_DIR$/Array/forEach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/reduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/Array/reduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6/promise/promise_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/promise/promise_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/快排.html" beforeDir="false" afterPath="$PROJECT_DIR$/排序/快排.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/set/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.js" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +26,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forEach.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Array/forEach.js">
+      <file leaf-file-name="扩展运算符.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="527">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set遍历操作.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/set遍历操作.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/数组去重.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weakset.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/WeakSet/weakset.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/Map/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flatten.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flatten.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="交并补集.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/交并补集.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.from.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ES6/数组的扩展/from/Array.from.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="some.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/some.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -60,6 +134,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,57 +149,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/闭包/局部变量.html" />
-        <option value="$PROJECT_DIR$/闭包/局部变量累加.html" />
-        <option value="$PROJECT_DIR$/闭包/5.html" />
-        <option value="$PROJECT_DIR$/ES6/let_const/块级作用域.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/交换变量的值.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/返回多个值/返回多个值.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/返回多个值.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/函数参数的定义.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/提取json数据.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/函数参数的默认值.html" />
-        <option value="$PROJECT_DIR$/ES6/解构赋值/便利Map解构.html" />
-        <option value="$PROJECT_DIR$/ES6/set/set.html" />
-        <option value="$PROJECT_DIR$/ES6/promise/1.html" />
-        <option value="$PROJECT_DIR$/ES6/promise/promise_2.html" />
-        <option value="$PROJECT_DIR$/减层数组.html" />
-        <option value="$PROJECT_DIR$/原型/instanceof.html" />
-        <option value="$PROJECT_DIR$/Array/map.html" />
-        <option value="$PROJECT_DIR$/mail.html" />
-        <option value="$PROJECT_DIR$/判断数据类型/typeof.html" />
-        <option value="$PROJECT_DIR$/判断数据类型/instance.html" />
-        <option value="$PROJECT_DIR$/判断数据类型/instanceof.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/字符串_forOf.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/indexOf.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/endsWidth.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/startsWith.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/includes.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/repeat.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/padStart.html" />
-        <option value="$PROJECT_DIR$/ES6/字符串的扩展/padStartEnd.html" />
-        <option value="$PROJECT_DIR$/继承/new.html" />
-        <option value="$PROJECT_DIR$/Array/reduce.html" />
-        <option value="$PROJECT_DIR$/ES6/promise/promise_3.html" />
-        <option value="$PROJECT_DIR$/yuan.html" />
-        <option value="$PROJECT_DIR$/排序/快排.html" />
-        <option value="$PROJECT_DIR$/数组去重/1.html" />
-        <option value="$PROJECT_DIR$/继承/prototype.html" />
-        <option value="$PROJECT_DIR$/ES6/箭头函数/箭头函数_1.html" />
         <option value="$PROJECT_DIR$/ES6/generator/generator_1.html" />
-        <option value="$PROJECT_DIR$/ES6/generator/gengerator_2.html" />
         <option value="$PROJECT_DIR$/ES6/generator/generator_2.html" />
-        <option value="$PROJECT_DIR$/ES6/generator/next.html" />
-        <option value="$PROJECT_DIR$/ES6/generator/for...of.html" />
-        <option value="$PROJECT_DIR$/ES6/generator/this.html" />
-        <option value="$PROJECT_DIR$/ES6/async/async_1.html" />
-        <option value="$PROJECT_DIR$/排序/选择排序.html" />
+        <option value="$PROJECT_DIR$/ES6/generator/next.js" />
+        <option value="$PROJECT_DIR$/ES6/generator/this.js" />
+        <option value="$PROJECT_DIR$/ES6/let_const/块级作用域.html" />
+        <option value="$PROJECT_DIR$/ES6/promise/promise_1.js" />
+        <option value="$PROJECT_DIR$/ES6/promise/promise_3.js" />
+        <option value="$PROJECT_DIR$/ES6/promise/promise_2.js" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/endsWidth.html" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/includes.js" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/indexOf.js" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/padStartEnd.js" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/repeat.js" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/startsWith.html" />
+        <option value="$PROJECT_DIR$/ES6/字符串的扩展/字符串_forOf.js" />
         <option value="$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.html" />
-        <option value="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝和浅拷贝.html" />
-        <option value="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝和浅拷贝.js" />
-        <option value="$PROJECT_DIR$/Array/every.html" />
-        <option value="$PROJECT_DIR$/Array/filler.html" />
-        <option value="$PROJECT_DIR$/Array/forEach.html" />
+        <option value="$PROJECT_DIR$/ES6/箭头函数/箭头函数_1.html" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/交换变量的值.html" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/便利Map解构.js" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/函数参数的定义.html" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/函数参数的默认值.js" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/提取json数据.js" />
+        <option value="$PROJECT_DIR$/ES6/解构赋值/返回多个值.html" />
+        <option value="$PROJECT_DIR$/判断数据类型/instanceof.html" />
+        <option value="$PROJECT_DIR$/判断数据类型/typeof.html" />
+        <option value="$PROJECT_DIR$/原型/instanceof.html" />
+        <option value="$PROJECT_DIR$/排序/冒泡.js" />
+        <option value="$PROJECT_DIR$/排序/快排.js" />
+        <option value="$PROJECT_DIR$/排序/选择排序.js" />
+        <option value="$PROJECT_DIR$/继承/class.html" />
+        <option value="$PROJECT_DIR$/继承/prototype.js" />
+        <option value="$PROJECT_DIR$/继承/new.js" />
+        <option value="$PROJECT_DIR$/继承/构造函数继承.js" />
+        <option value="$PROJECT_DIR$/闭包/1.html" />
+        <option value="$PROJECT_DIR$/闭包/2.js" />
+        <option value="$PROJECT_DIR$/闭包/3.js" />
+        <option value="$PROJECT_DIR$/闭包/4.js" />
+        <option value="$PROJECT_DIR$/闭包/5.js" />
+        <option value="$PROJECT_DIR$/闭包/全局变量累加.js" />
+        <option value="$PROJECT_DIR$/闭包/局部变量.js" />
+        <option value="$PROJECT_DIR$/闭包/局部变量累加.js" />
+        <option value="$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.js" />
+        <option value="$PROJECT_DIR$/ES6/数组的扩展/from/Array.from.js" />
+        <option value="$PROJECT_DIR$/ES6/set/set.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/Set/set遍历操作.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/Set/交并补集.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/Set/数组去重.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/WeakSet/weakSet.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/WeakSet/weakset.js" />
+        <option value="$PROJECT_DIR$/ES6/SetMap/Map/map.js" />
+        <option value="$PROJECT_DIR$/flatten.js" />
       </list>
     </option>
   </component>
@@ -161,36 +236,6 @@
               <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="原型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="排序" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="数组去重" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="深拷贝和浅拷贝" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stuJavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stuJavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="继承" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -215,11 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ES6/SetMap" />
+      <recent name="$PROJECT_DIR$/ES6/WeakSet" />
       <recent name="$PROJECT_DIR$/ES6" />
+      <recent name="$PROJECT_DIR$/ES6/SetMap/Set" />
       <recent name="$PROJECT_DIR$/mail" />
-      <recent name="$PROJECT_DIR$/Array" />
-      <recent name="$PROJECT_DIR$/ES6/解构赋值" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -276,27 +321,34 @@
       <workItem from="1535367674456" duration="230000" />
       <workItem from="1535421657223" duration="1038000" />
       <workItem from="1535427513170" duration="470000" />
-      <workItem from="1535507032700" duration="5222000" />
+      <workItem from="1535507032700" duration="7653000" />
+      <workItem from="1535598534503" duration="876000" />
+      <workItem from="1535681145373" duration="3558000" />
+      <workItem from="1535783512535" duration="37000" />
+      <workItem from="1535959636679" duration="4512000" />
+      <workItem from="1536028567074" duration="2482000" />
+      <workItem from="1536112014968" duration="2117000" />
+      <workItem from="1536199547582" duration="785000" />
+      <workItem from="1536288213418" duration="2771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95946000" />
+    <option name="totallyTimeSpent" value="115515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16842847" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16842847" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32957748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18028168" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -332,314 +384,137 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6/generator/for...of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/async/async_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/快排.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/选择排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/next.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/for...of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/async/async_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/快排.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/选择排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/next.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/for...of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/async/async_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/快排.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/选择排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/next.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/for...of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/async/async_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/promise/promise_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/promise/promise_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/冒泡.html">
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/endsWidth.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/属性操作/数组应用/图片更换.html">
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/includes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615" />
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/返回多个值.html">
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/indexOf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/padStartEnd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/repeat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/startsWith.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/字符串的扩展/字符串_forOf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/箭头函数/箭头函数_1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/交换变量的值.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/便利Map解构.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/函数参数的定义.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/函数参数的默认值.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/提取json数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/解构赋值/返回多个值.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js设置隐藏出现事件/导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/判断数据类型/instanceof.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/判断数据类型/typeof.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原型/instanceof.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/冒泡.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/快排.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/number/number.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据类型/String/字符串_1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数组去重/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-108">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/some.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/构造函数继承.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/箭头函数/箭头函数_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/generator_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/generator_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/next.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/for...of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/继承/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/generator/this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/async/async_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/快排.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/选择排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -650,24 +525,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/every.js">
+    <entry file="file://$PROJECT_DIR$/继承/class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/filler.js">
+    <entry file="file://$PROJECT_DIR$/继承/prototype.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/forEach.js">
+    <entry file="file://$PROJECT_DIR$/继承/new.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/继承/构造函数继承.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/获取元素/parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/获取元素/this.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/全局变量累加.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/减层数组.html" />
+    <entry file="file://$PROJECT_DIR$/yuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/局部变量累加.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/局部变量.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/数组的扩展/from/Array.from.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/交并补集.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/some.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/数组的扩展/扩展运算符.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/set遍历操作.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/Set/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/WeakSet/weakset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/SetMap/Map/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flatten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
